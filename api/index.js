@@ -20,7 +20,7 @@ function alternateCapsReverse(str) {
   }
   return result;
 }
-app.get("/bfhl", (req, res) => {
+app.get("/", (req, res) => {
   res.send("Use POST method with JSON body to test.");
 });
 
